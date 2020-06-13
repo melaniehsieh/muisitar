@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: #f3f3f3;
+  border: #f3f3f3 solid 1px;
+  border-radius: 30px;
+  box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 20%),
+    -5px -5px 10px 0 rgb(255, 255, 255, 30%);
+}
+
+.title {
+  background-color: #f3f3f3;
+  font-size: 30px;
+  padding: 1%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.card_body {
+  background-color: #f3f3f3;
+}
+
+.card:hover {
+  box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 50%);
+}

@@ -1,0 +1,44 @@
+h1 {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+p {
+  margin-top: 40px;
+  font-size: 30px;
+  font-style: italic;
+}
+.box {
+  padding: 50px 120px;
+  background-color: #f3f3f3;
+  border: #f3f3f3 solid 1px;
+  border-radius: 30px;
+  box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 17%),
+    -5px -5px 10px 0 rgb(255, 255, 255, 20%);
+}
+
+h3 {
+  color: #fff;
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+.search {
+  width: 20%;
+  margin-top: 500px;
+  padding: 15px 30px;
+  font: 500 20px "Open Sans", sans-serif;
+  color: #000;
+  border-radius: 53px;
+  box-shadow: 9px 9px 9px 0 rgba(0, 0, 0, 17%),
+    -9px -9px 20px 0 rgb(255, 255, 255, 17%);
+  margin-top: 70px;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 25%);
+}
+/*  */
