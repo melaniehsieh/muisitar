@@ -7,6 +7,7 @@ import BeginnerSong from "./components/BeginnerSong";
 import Challenges from "./components/Challenges";
 import Chords from "./components/Chords";
 import Adele from "./components/Adele";
+import Riptide from "./components/Riptide";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/challenges" component={Challenges} />
           <Route path="/c-major" component={Chords} />
           <Route path="/rid" component={Adele} />
+          <Route path="/riptide" component={Riptide} />
         </Switch>
       </div>
     </BrowserRouter>

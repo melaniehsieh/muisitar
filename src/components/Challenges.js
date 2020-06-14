@@ -2,13 +2,18 @@ import React, { Component } from "react";
 import { Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import rid from "../image/rid.jpg";
-import perfect from "../image/perfect.jpg";
+import riptide from "../image/riptide.png";
 import locked from "../image/lock.png";
 import "./BeginnerSong.css";
 
 const songs = [
   { img: rid, title: "Rolling in the Deep", artist: "Adele", id: "/rid" },
-  { img: perfect, title: "Perfect", artist: "Ed Sheeran", id: "/perfect" },
+  {
+    img: riptide,
+    title: "Riptide",
+    artist: "Vance Joy",
+    id: "/riptide",
+  },
   { img: locked, title: "Best Part of Me", artist: "Ed Sheeran", id: "/bpof" },
   {
     img: locked,
