@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import BeginnerSong from "./components/BeginnerSong";
 import Challenges from "./components/Challenges";
 import Chords from "./components/Chords";
+import Adele from "./components/Adele";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/beginners" component={BeginnerSong} />
           <Route path="/challenges" component={Challenges} />
           <Route path="/c-major" component={Chords} />
+          <Route path="/rid" component={Adele} />
         </Switch>
       </div>
     </BrowserRouter>

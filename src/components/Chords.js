@@ -3,7 +3,6 @@ import { Card } from "react-bootstrap";
 import c from "../image/c.webp";
 import C from "../image/c-chord.jpg";
 import audio from "../image/c.mp3";
-import "./Chords.css";
 
 const chords = [
   {
