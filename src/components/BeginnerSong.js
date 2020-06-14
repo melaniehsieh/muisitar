@@ -12,14 +12,14 @@ import em from "../image/em.webp";
 import "./BeginnerSong.css";
 
 const chords = [
-  { img: a, title: "A Major Chord" },
-  { img: c, title: "C Major Chord" },
-  { img: d, title: "D Major Chord" },
-  { img: e, title: "E Major Chord" },
-  { img: g, title: "G Major Chord" },
-  { img: am, title: "A Minor Chord" },
-  { img: dm, title: "D Minor Chord" },
-  { img: em, title: "E Minor Chord" },
+  { img: a, title: "A Major Chord", id: "/a-major" },
+  { img: c, title: "C Major Chord", id: "/c-major" },
+  { img: d, title: "D Major Chord", id: "/d-major" },
+  { img: e, title: "E Major Chord", id: "/e-major" },
+  { img: g, title: "G Major Chord", id: "/g-major" },
+  { img: am, title: "A Minor Chord", id: "/a-minor" },
+  { img: dm, title: "D Minor Chord", id: "/d-minor" },
+  { img: em, title: "E Minor Chord", id: "/e-minor" },
 ];
 
 export default class BeginnerSong extends Component {
@@ -36,7 +36,7 @@ export default class BeginnerSong extends Component {
                   <Card.Img variant="top" src={chords.img} />
                   <Card.Body className="card_body">
                     <Card.Title className="title">{chords.title}</Card.Title>
-                    <Link to="/a-major">
+                    <Link to={chords.id}>
                       <Button variant="warning">Practice</Button>
                     </Link>
                   </Card.Body>
