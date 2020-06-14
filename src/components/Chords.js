@@ -37,10 +37,7 @@ export default class Chords extends Component {
                 <Card
                   style={{ width: "500px", margin: "30px", padding: "10px" }}
                 >
-                  <video
-                    loop
-                    autoPlay
-                  >
+                  <video width="450" height="600" loop autoPlay>
                     <source src={video} type="video/mp4" />
                   </video>
                   <Card.Text style={{ fontSize: "20px", margin: "30px" }}>
